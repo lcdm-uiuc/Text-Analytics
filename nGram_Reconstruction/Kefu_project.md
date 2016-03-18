@@ -8,8 +8,9 @@
 
 2. Train regression model based on the n-gram data to reconstruct original document
 
-3. Test the hypothesis that under the condition that people can not reconstruct the document based on the n-gram data, 
-   the value of n for n-gram data will be able to increase when the length of original document increases.
+3. Test the hypothesis that the value of n for n-gram is allowed to increase when the length of original document increases.
+
+4. For what value of n can we reconstruct documents of a given length
 
 #### Used tools
 
