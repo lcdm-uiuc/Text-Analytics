@@ -1,8 +1,7 @@
 ***
 
 ## N-gram reconstruction project for the Cline Center 
-
-## (Kefu Zhu, Andrew Mehrmann)
+(Kefu Zhu, Andrew Mehrmann)
 
 ### Advisor: Professor Robert J. Brunner
 
