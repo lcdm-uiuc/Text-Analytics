@@ -4,7 +4,7 @@ import os
 
 def main():
 
-    apikey = '7ce4357d5461cb54c0e8da53a03fa862:18:74619061'
+    apikey = '<Your API KEY'
     url = 'http://api.nytimes.com/svc/search/v2/articlesearch.json?'
 
     for num in range(1,50):
