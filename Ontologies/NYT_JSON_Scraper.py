@@ -11,7 +11,8 @@ def main():
         payload = {'section_name': 'Politics', 'fq':{'source':['Reuters','AP', 'The New York Times']}, 'page': num, 'begin_date': 20070101, 'end_date': 20160411,'sort':'oldest', 'api-key': apikey}
         r = requests.get(url, params=payload)
         print(r.url)
-        os.system("wget '" + str(r.url) + "'")
+        os.system("wget '" + str(r.url) + "' -O '"+ str(num) +"'.json")
+
 
 
 if __name__== "__main__":
