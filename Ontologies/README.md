@@ -10,5 +10,12 @@
 - word_count
 - type_of_material 
 
-Each lead_paragraph data from gives us 30~50 words for each article,and there are 10 articles per JSON file. 
-NYT Search API v2 can give us 10,000 JSON files for every 24 hours.
+____________
+
+Python3+ is required for the best result and to avoid unnecessary errors. 
+
+JSON_Scraper.py lets you download multiple JSON files at once, and it automatically rename each file so that we can easily process the file automatically. 
+
+parser.py lets you parse multiple JSON files at once, and will only extract subsection (necessary information) of each JSON file (snippets, abstract, lead_paragragh, web_url, etc.)
+
+Parsing 100 JSON files from Politics section has output-ed 30,789 words, which can viewed in Raw Text Data folder. 
