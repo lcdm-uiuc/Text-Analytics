@@ -18,4 +18,4 @@ JSON_Scraper.py lets you download multiple JSON files at once, and it automatica
 
 parser.py lets you parse multiple JSON files at once, and will only extract subsection (necessary information) of each JSON file (snippets, abstract, lead_paragragh, web_url, etc.)
 
-Parsing 100 JSON files from Politics section has output-ed 30,789 words, which can viewed in Raw Text Data folder. 
+Parsing 100 JSON files from Politics section has output-ed 30,789 words, which can be viewed in Raw Text Data folder. 
