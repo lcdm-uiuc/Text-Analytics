@@ -19,4 +19,4 @@ def collect(section):
 
 
 if __name__== "__main__":
-    collect("lead_paragraph")
+    collect("lead_paragraph") #Whichever section you need information from (e.g. web_url, publication date, abstract, etc.)
